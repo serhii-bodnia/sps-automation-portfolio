@@ -1,5 +1,7 @@
-# sps-automation-portfolio
-Praxisprojekte: SPS-Programmierung mit TIA Portal, S7-1200, Factory I/O
+# **Übungsprojekt: SPS-Programmierung mit TIA Portal, Factory I/O.** 
+
+# **Automatisierung einer modularen Abfüll- und Sortieranlage mit Siemens S7-1200**
+
 
 # **1. Projektbeschreibung**   
 **1.1 Gesamtkonzept des Projekts** 
