@@ -7,16 +7,20 @@
 **Gesamtanlage (Factory I/O Simulation)**
 ![Factory I/O Übersicht](screenshots/factory-io-overview.png)
 
-**HMI – Übersicht**
-Statusanzeige beider Linien, Produktionsdaten, Palettenzähler, globaler STOP-ALL-Taster.
-![HMI Übersicht](screenshots/hmi-uebersicht.png)
+**Gesamtlayout der Anlage**
+![Factory I/O Layout](screenshots/factory-io-layout-full.png)
 
 **HMI – Abfüllbereich**
 Rezeptauswahl, Soll-/Istwerte für Füllstand, Füllmenge und Gewicht je Linie, NOT-AUS-Taster.
 ![HMI Abfüllbereich](screenshots/hmi-abfuellbereich.png)
 
-**Gesamtlayout der Anlage**
-![Factory I/O Layout](screenshots/factory-io-layout-full.png)
+**HMI – Übersicht**
+Statusanzeige beider Linien, Produktionsdaten, Palettenzähler, globaler STOP-ALL-Taster.
+![HMI Übersicht](screenshots/hmi-uebersicht.png)
+
+
+
+
 
 ---
 # **1. Projektbeschreibung**   
