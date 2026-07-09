@@ -55,11 +55,11 @@ Im Projekt werden folgende Komponenten verwendet:
 - Analoge Wägezellen (Gewichtssensoren) 
 - Diffuse Reedsensoren / Lichttaster (Präsenzerkennung) 
 - Aktoren / Spiegelmechanismen: 
-    - Band- und Rollenförderer (Transportbänder) 
-    - Emitters und Removers (Objekterzeugung/-löschung) 
-    - Befüllventile (Fill Valves) 
-    - Sortier- und Schwenkmechanismen ○ Pusher 
-    - Signalleuchten (Meldeleuchten) 
+  - Band- und Rollenförderer (Transportbänder)
+  - Emitters und Removers (Objekterzeugung/-löschung)
+  - Befüllventile (Fill Valves)
+  - Sortier- und Schwenkmechanismen ○ Pusher
+  - Signalleuchten (Meldeleuchten) 
 Die SPS-Steuerung übernimmt: 
 
 - Die Verarbeitung der Eingangssignale 
@@ -72,18 +72,18 @@ Das Projekt ist modular aufgebaut und nutzt parametrisierte Funktionsbausteine (
 Die Aufgabenverteilung ist klar strukturiert: OB1 übernimmt die allgemeine Steuerungslogik, während OB30 für die hochpräzise Dosierung zuständig ist. 
 Wichtigste Software-Module: 
 
-- FC_Mode_Manager – Zentrale Steuerung der Betriebsarten 
-- FB_Tank – Steuerung und Füllstandsregelung des Reservoirs 
-- FB_Dose_Control – Dosierung von Flüssigkeit in Kanistern nach vorgegebenem Sollwert 
-- FB_Transport_Band – Standard-Förderband (gerade) 
-- FB_Transportband mit Verzögerung – Förderband mit Einschalt-/Ausschaltverzögerung 
-- FB_Transport_T-Band – T-Kreuzung / T-Stück-Förderband 
-- FB_Band mit Positionierleisten – Förderband mit Positionierungsanschlägen 
-- FB_Palette_Linie – Palettenzuführung 
-- FB_AbfüllmaschineBand – Steuerung des Bands der Abfüllanlage 
-- FB_Gewichtkontrolle – Gewichtskontrolle und Toleranzprüfung der Produkte 
-- FB_Sortierabschnitt – Steuerung des Sortierbereichs 
-- FB_Laufzeit – Betriebsstundenzähler des Systems 
+- "FC_Mode_Manager" – Zentrale Steuerung der Betriebsarten 
+- "FB_Tank" – Steuerung und Füllstandsregelung des Reservoirs 
+- "FB_Dose_Control" – Dosierung von Flüssigkeit in Kanistern nach vorgegebenem Sollwert 
+- "FB_Transport_Band" – Standard-Förderband (gerade) 
+- "FB_Transportband mit Verzögerung" – Förderband mit Einschalt-/Ausschaltverzögerung 
+- "FB_Transport_T-Band" – T-Kreuzung / T-Stück-Förderband 
+- "FB_Band mit Positionierleisten" – Förderband mit Positionierungsanschlägen 
+- "FB_Palette_Linie" – Palettenzuführung 
+- "FB_AbfüllmaschineBand" – Steuerung des Bands der Abfüllanlage 
+- "FB_Gewichtkontrolle" – Gewichtskontrolle und Toleranzprüfung der Produkte 
+- "FB_Sortierabschnitt" – Steuerung des Sortierbereichs 
+- "FB_Laufzeit" – Betriebsstundenzähler des Systems 
 Für die Verarbeitung analoger Signale wird ein separater Skalierungsbaustein verwendet: 
 
 - FC_Scalierung 
@@ -197,7 +197,7 @@ Realisierte Logik:
     - Wenn beide Abfülllinien aktiv sind, stoppt nur die     Linie, bei der der entsprechende STOP-Taster gedrückt        wurde. 
     - Ein Wiederanlauf erfolgt durch erneutes Drücken von **START**. 
 7. Das Drücken des **NOT-AUS-Taster** führt zu einem sofortigen, unkontrollierten Stillstand der gesamten Anlage. 
-10. Der Taster **STOP ALL** im HMI-Bild **"Übersicht"** führt zu einem kontrollierten, koordinierten Herunterfahren        aller Anlagenkomponenten. 
+8. Der Taster **STOP ALL** im HMI-Bild **"Übersicht"** führt zu einem kontrollierten, koordinierten Herunterfahren        aller Anlagenkomponenten. 
 
 **3.2 Anlagenbedienung** 
 
