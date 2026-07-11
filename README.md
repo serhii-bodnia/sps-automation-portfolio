@@ -29,7 +29,10 @@ Auszug aus den zentralen Funktionsbausteinen des Projekts:
 - [`FB_Pick_and_Place.scl`](code/FB_Pick_and_Place.scl) — Schrittkette für
   XYZ-Handling mit palettenweiser Ablage (4 Positionen) und Palettenwechsel-Logik
 
-
+## Inhalt
+- [1. Projektbeschreibung](#1-projektbeschreibung)
+- [2. Funktionsprinzip der Anlage](#2-funktionsprinzip-der-anlage)
+- [3. Kurzbedienungsanleitung](#3-kurzbedienungsanleitung)
 
 ---
 # **1. Projektbeschreibung**   
