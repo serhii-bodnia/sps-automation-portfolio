@@ -239,4 +239,4 @@ Das HMI-Bild **"Übersicht"** zeigt:
 - Die Anzahl der Produkte, die an nachgelagerte Produktionsbereiche übergeben wurden
 
   ---
-**Kontakt:** [LinkedIn] (https://www.linkedin.com/in/serhii-bodnia) · s.a.bodnya@gmail.com
+**Kontakt:** [LinkedIn](https://www.linkedin.com/in/serhii-bodnia) · s.a.bodnya@gmail.com
